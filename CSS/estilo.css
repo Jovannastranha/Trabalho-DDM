@@ -1,0 +1,168 @@
+
+@font-face {
+    font-family: Y2K;
+    src: url(StarBold.ttf);
+}
+@font-face {
+    font-family: Lore;
+    src: url(Super\ Positive\ Personal\ Use.ttf);
+}
+
+/* h1.jovanna{
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    text-align: center;
+    font-size: 98px;
+    margin-bottom: 0%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 0%;
+    margin-right: 70%;
+}
+
+body{
+    background-color: rgb(177, 135, 135);
+    margin-top: 10%;
+
+}
+#main {
+    margin:auto;
+    background-color: rgb(250, 224, 224);
+    max-width: 60%;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 2.7fr 7fr;
+    grid-template-rows: 1fr 5fr;
+    height: max-content;
+}
+.pic{
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    margin: left 10%; ;
+
+}
+.lore {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: rgb(167, 99, 99);
+    text-align: justify;
+    font-size: 20px;
+    font-family: Lore;
+    margin-bottom: 59%;
+}
+
+.hobbiestitle {
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    text-align: center;
+    font-size: 98px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 60%;
+}
+.hobbies {
+    color: rgb(167, 99, 99);
+    text-align: justify;
+    font-size: 20px;
+    font-family: Lore;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 2.7fr 7fr; 
+} */
+
+body{
+    background-color:rgb(177, 135, 135);
+}
+
+#main{
+    margin: auto;
+    /* border: 2px dashed black; */
+    width: 720px;
+    padding: 10px;
+    background-color: beige;
+}
+
+.box_1{
+    margin: 5px;
+    /* border: 2px dashed black; */
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+.box_1 .foto{
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.box_1 .intro{
+    font-size: 25px;
+    color:   rgb(167, 99, 99);;
+    font-family: Lore;
+}
+
+.conteudo{
+    color:   rgb(167, 99, 99);;
+    font-size: 19px;
+    /* border: 2px dashed black; */
+    margin: 5px;
+    padding-left: 40px;
+    font-family: Lore;
+}
+
+.titulo1{
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    text-align: center;
+    font-size: 98px;
+}
+
+.titulo2{
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+.titulo3{
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+.titulo4{
+    font-family: Y2K;
+    color: rgb(167, 99, 99);
+    font-size: 50px;
+    margin: 0px;
+    text-align: left; 
+}
+.Bio{
+    color:   rgb(167, 99, 99);;
+    font-size: 19px;
+    margin: 5px;
+
+    font-family: Lore;
+
+}
